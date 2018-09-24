@@ -1,2 +1,2 @@
 # Temporal
-Basic CMS
+Basic CMS system.
