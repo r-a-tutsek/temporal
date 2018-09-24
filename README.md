@@ -1,2 +1,2 @@
-# temporal
+# Temporal
 Basic CMS
