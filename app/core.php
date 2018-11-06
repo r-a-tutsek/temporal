@@ -35,7 +35,8 @@ class Core {
 	private function registerRoutes() {
 		$klein = new Klein();
 		$klein->respond(function($request, $response, $service) {
-			$service->layout($this->config['path']['public'].'/layout.phtml');
+			//$service->test = 1;
+			$service->layout($this->config['path']['public'].'/layout.phtml');			
 		});
 		$klein->respond('GET', '/', function ($request, $response, $service) {
 			$service->render($this->config['path']['view'].'/index.html');
