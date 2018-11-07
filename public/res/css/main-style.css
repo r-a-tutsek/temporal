@@ -1,3 +1,7 @@
+* {
+	font-family:'Advent Pro', sans-serif;
+}
+
 html {
 	width:100%;
 	height:100%;
@@ -6,6 +10,7 @@ html {
 body {
 	width:100%;
 	height:100%;
+	background-color:#00cc99;
 }
 
 .container {
@@ -29,21 +34,38 @@ body {
 	transform:translate(-50%, -50%);
 	-webkit-transform:translate(-50%, -50%);
 	width:100%;
-	max-width:500px;
+	max-width:450px;
 	padding:20px;
 	border-radius:8px;
 	box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	background-color:#ffffff;
 }
 
 .box-login-input-group-addon {
-	min-width:100px;
+	
 }
 
 .box-login-input-group-text {
 	width:100%;
-	text-transform:uppercase;
+}
+
+.box-login-input-group-text:hover {
+	cursor:pointer;
 }
 
 .box-login-button {
 	width:100%;
+}
+
+.box-login-button-text {
+	float:left;
+	width:50%;
+	text-align:left;
+	text-transform:uppercase;
+}
+
+.box-login-button-sign {
+	float:right;
+	width:50%;
+	text-align:right;
 }

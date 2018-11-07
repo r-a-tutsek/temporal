@@ -1,0 +1,23 @@
+{
+  "name": "temporal",
+  "version": "1.0.0",
+  "description": "Basic CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-a-tutsek/temporal.git"
+  },
+  "keywords": [
+    "basic",
+    "cms"
+  ],
+  "author": "sirius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r-a-tutsek/temporal/issues"
+  },
+  "homepage": "https://github.com/r-a-tutsek/temporal#readme"
+}

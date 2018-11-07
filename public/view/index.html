@@ -3,21 +3,24 @@
 		<div class="form-group">
 			<div class="input-group">
 				<div class="input-group-prepend box-login-input-group-addon">
-					<span class="input-group-text box-login-input-group-text">Username</span>
+					<label class="input-group-text box-login-input-group-text" for="userName"><i class="fas fa-user-secret"></i></label>
 				</div>
-				<input type="text" class="form-control" />
+				<input type="text" id="userName" class="form-control" placeholder="Username" />
 			</div>
 		</div>
 		<div class="form-group">
 			<div class="input-group">
 				<div class="input-group-prepend box-login-input-group-addon">
-					<span class="input-group-text box-login-input-group-text">Password</span>
+					<label class="input-group-text box-login-input-group-text" for="password"><i class="fas fa-key"></i></label>
 				</div>
-				<input type="password" class="form-control" />
+				<input type="password" id="password" class="form-control" placeholder="Password" />
 			</div>
 		</div>
-		<div class="form-group">
-			<button type="button" class="btn btn-primary box-login-button">Login <i class="fas fa-angle-right"></i></button>
+		<div class="form-group mb-0">
+			<button type="button" class="btn btn-primary box-login-button">
+				<div class="box-login-button-text">Login</div>
+				<div class="box-login-button-sign"><i class="fas fa-angle-right"></i></div>
+			</button>
 		</div>
 	</div>
 </div>
