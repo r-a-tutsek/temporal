@@ -5,7 +5,7 @@
 				<div class="input-group-prepend box-login-input-group-addon">
 					<label class="input-group-text box-login-input-group-text" for="userName"><i class="fas fa-user-secret"></i></label>
 				</div>
-				<input type="text" id="userName" class="form-control" placeholder="Username" />
+				<input type="text" id="userName" class="form-control" placeholder="Username" ng-model="loginForm.userName" />
 			</div>
 		</div>
 		<div class="form-group">
@@ -13,11 +13,11 @@
 				<div class="input-group-prepend box-login-input-group-addon">
 					<label class="input-group-text box-login-input-group-text" for="password"><i class="fas fa-key"></i></label>
 				</div>
-				<input type="password" id="password" class="form-control" placeholder="Password" />
+				<input type="password" id="password" class="form-control" placeholder="Password" ng-model="loginForm.password" />
 			</div>
 		</div>
 		<div class="form-group mb-0">
-			<button type="button" class="btn btn-primary box-login-button">
+			<button type="button" class="btn btn-primary box-login-button" ng-click="login()">
 				<div class="box-login-button-text">Login</div>
 				<div class="box-login-button-sign"><i class="fas fa-angle-right"></i></div>
 			</button>
