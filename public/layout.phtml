@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app="mainApp">
 	<head>
 		<title>Temporal</title>
 		<link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="/public/res/css/bootstrap-fixes.css"/>
 		<link rel="stylesheet" href="/public/res/css/main-style.css"/>
 	</head>
-	<body>
+	<body ng-controller="mainController">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -19,5 +19,7 @@
 		<script src="/public/res/js/jquery.min.js"></script>
 		<script src="/public/res/bundles/bootstrap/js/bootstrap.min.js"></script>
 		<script src="/public/res/bundles/fontawesome/js/fontawesome.min.js"></script>
+		<script src="/vendor/node_modules/angular/angular.min.js"></script>
+		<script src="/public/res/js/angular/index/IndexController.js"></script>
 	</body>	
 </html>

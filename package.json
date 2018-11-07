@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/r-a-tutsek/temporal/issues"
   },
-  "homepage": "https://github.com/r-a-tutsek/temporal#readme"
+  "homepage": "https://github.com/r-a-tutsek/temporal#readme",
+  "dependencies": {
+    "angular": "^1.7.5"
+  }
 }
